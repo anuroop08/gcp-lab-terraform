@@ -13,7 +13,7 @@ steps:
   args: 
   - '-c'
   - |
-      cd project-demo
+      cd dev
         terraform init
 
 # [START tf-plan]
@@ -23,7 +23,7 @@ steps:
   args: 
   - '-c'
   - | 
-        cd project-demo
+        cd dev
           terraform plan
 # [END tf-plan]
 
@@ -34,6 +34,6 @@ steps:
   args: 
   - '-c'
   - | 
-        cd project-demo
+        cd dev
           terraform apply -auto-approve
 # [END tf-apply]      
