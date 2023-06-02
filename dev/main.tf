@@ -1,6 +1,6 @@
 provider "google" {
   #credentials = file("<path_to_service_account_key_json>")
-  project     = "	anuroop-lab"
+  project     = "anuroop-lab"
   region      = "us-central-1"
 }
 
